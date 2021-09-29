@@ -46,8 +46,11 @@
   font-size: 70px;
   font-weight: 500;
   line-height: 26.4px;
-  margin-bottom: 58px;
+  margin-bottom: 30px;
+  margin-top: 3px;
 }
+
+
 
 .lista {
   width: 60%;
@@ -119,11 +122,19 @@
 
   .formTask .title {
     font-size: 34px;
+    padding-top: 10%;
   }
 
   .formTask .entrada {
-    padding-right: 10px;
+    padding-right: 5px;
   }
+  
+}
+.validacion{
+  font-family: "Indie Flower";
+  margin-left: 37%;
+  font-size: 20px;
+  color: red;
 }
 
 /*Icon */
@@ -144,6 +155,7 @@
   vertical-align: middle;
   -moz-appearance: none;
   -webkit-appearance: none;
+
 }
 .cb:before,
 .cb:after {
@@ -316,7 +328,9 @@
     height: 0;
   }
 }
-/* @keyframes eraseB {
+
+
+ @keyframes eraseB {
   from {
     opacity: 0;
     transform: translate(0.6em, -12.2em) rotate(90deg);
@@ -355,4 +369,4 @@
     opacity: 0;
     transform: translate(2em, -12.5em) rotate(100deg);
   }
-} */
+} 

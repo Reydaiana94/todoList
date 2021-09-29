@@ -4,6 +4,7 @@ const TareasForm = (props) => {
   const [inputText, setInputText] = useState("");
   const [validacion, setValidacion] = useState(true);
   const manejoForm = (event) => {
+    
     setInputText(event.target.value);
   };
 
@@ -20,7 +21,9 @@ const TareasForm = (props) => {
   return (
     <div className="conteiner">
       <form className="formTask" onSubmit={enviar}>
-        <h1 className="title">Things to do</h1>
+
+        <h1 className="title">Things to do..</h1>
+
         <input className="entrada"
           value={inputText}
           onChange={manejoForm}
